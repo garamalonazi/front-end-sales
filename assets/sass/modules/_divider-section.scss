@@ -1,0 +1,24 @@
+@import '../config/variable';
+
+.divider{
+    background: linear-gradient(270.57deg, #2B5E7A 0%, #6CA7B6 100%);
+    height: 100px;
+    color : $color_1;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.divider-text{
+    display : flex;
+    font-family: $font;
+    flex-direction: row;
+    justify-content: center;
+    .second-word{
+        font-size: 30px;
+        font-weight: 600;
+        
+    }
+}
+.lines{
+    position: absolute;
+}

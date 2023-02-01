@@ -1,0 +1,41 @@
+@import 'config/variable';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts" ;
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+@import './modules/page-header';
+@import './modules/divider-section';
+@import './modules/cards';
+
+.body{
+    background: #F6F6F6;
+}
+.offer-titel{
+    font-family: $font;
+    font-weight: 700;
+
+}
+.offer-descrption{
+    font-family: $font;
+}
+.offer-caption{
+    margin-top: 50px;
+    font-family: $font;
+    color : #C2CEDB;
+    font-size: 14px;
+    
+}
+.offer-alart{
+    background:$primary ;
+    color: #fff;
+    margin-bottom: 20px;
+ margin-right: 0px;
+ margin-left: 0px;
+ height: 65px;
+ box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+
+ 
+}

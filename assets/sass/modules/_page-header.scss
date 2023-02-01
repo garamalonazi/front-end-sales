@@ -1,0 +1,44 @@
+@import '../config/variable';
+
+
+.uper-navbar{
+    border-bottom: 1px solid  #ccc;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.uper-navbar-item{
+    border-#{$right}: 1px solid #ccc;
+     .left-item{
+        border-#{$right}: 0;
+        margin-right: 10px;
+     }
+}
+
+
+.brand{
+    color : $primary;
+    font-size : 40px ;
+    font-family: $font;
+    margin-#{$right}: 250px;
+    margin-#{$left}: 20px;
+    font-weight: 900;
+    line-height: 48px;
+
+    @if $left == right{
+        .header-navbar{
+            margin-left: 40px;
+        }
+
+    }
+
+
+}
+.nav-icon{
+    width: 18px;
+    height: 16px;
+    color: #5E5E5E;
+    display: flex;
+    justify-content: space-around;
+}

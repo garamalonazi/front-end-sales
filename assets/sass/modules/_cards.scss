@@ -1,0 +1,102 @@
+@import '../config/variable';
+
+
+
+
+.sales{
+    margin-top: 100px;
+    margin-#{$left}: 40px ;
+}
+.card-price{
+   
+        font-family : $font;
+        font-size : 12px;
+
+    
+}
+.color-btn{
+    .color-btn-blue{
+        color: #1746BE;
+    }
+   .color-btn-orange{
+         color:#DEAD00;
+   }
+   .color-btn-pink{
+         color: #F092CD;
+   }
+   .color-btn-green{
+    color: #25CC09;
+}
+}
+.status{
+  
+        font-family: $font;
+        font-size: 12px;
+    
+}
+.sales-card{
+    width: 320px;
+    height: 400px;
+}
+.line{
+    width: 10px;
+}
+.item-img{
+    width: 232.29px;
+    height: 219.09px;
+left: 7.14%;
+right: 9.9%;
+top: 7.72%;
+bottom: 23.81%;
+
+}
+.card-badge{
+    width: 100px;
+    height: 24px;
+    border-radius: 0px 0px 5px 0px;
+    background: linear-gradient(270.57deg, #2B5E7A 0%, #6CA7B6 100%);
+}
+.card-btn{
+    font-family: $font;
+    font-size: 10px;
+    width: 81px;
+    height: 26px;
+    background: #6CA7B6;
+    border : #6CA7B6;
+    border-radius: 0px 0px 5px 0px;
+}
+
+
+
+///////////////////////
+.card-product {
+    color: rgb(11, 8, 8);
+    .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+.info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+}
+
+.label-details { 
+    margin-right:10px;
+    color: rgb(18, 11, 11);
+    display: inline-block;
+    vertical-align: middle;
+}
